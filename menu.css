@@ -1,8 +1,42 @@
-#navbar{
+#navbar {
+    color: purple;
+    border-radius: 15px;
     overflow: hidden;
-    background-color: #123;
+    background-color: black;
+    padding: 14px;
+    display: block;
+    font-family: Arial;
+    text-align: center;
+    font-size: 25px;
 }
 
+#navbar a {
+    text-align: center;
+    font-family: Arial;
+    float: left;
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    border: solid #635D5C;
+    border-radius: 10px;
+    margin: 10px;
+}
+#navbar hr {
+    color: #635D5C;
+    width: 122%;
+}
 .content {
     padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
