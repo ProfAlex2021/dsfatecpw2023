@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -25,3 +26,32 @@
 .sticky + .content {
   padding-top: 60px;
 }
+=======
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+>>>>>>> c14822e516871fc69a07466d6da8b2c7417da16c
