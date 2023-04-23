@@ -1,3 +1,5 @@
+window.alert("Bem Vindo")
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
