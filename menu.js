@@ -1,18 +1,19 @@
-window.alert("Bem Vindo")
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() 
+window.onload = function () 
 {
-    if (window.pageYOffset >= sticky) 
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+
+    var sticky = navbar.offsetTop;
+
+    function myFunction() 
     {
-        navbar.classList.add("sticky")
-    } else
-    {
-        navbar.classList.remove("sticky")
+        if (window.pageYOffset >= sticky) 
+        {
+            navbar.classList.add("sticky")
+        } else
+        {
+            navbar.classList.remove("sticky")
+        }
     }
 }
